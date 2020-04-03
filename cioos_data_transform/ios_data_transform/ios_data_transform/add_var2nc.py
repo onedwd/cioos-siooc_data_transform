@@ -33,7 +33,7 @@ def get_files(archive_dir):
         print(profile)
         add_geo(profile)
 
-
+# directory for all the netcdf ADCP files
 archive_dir_test = '/run/user/1000/gvfs/smb-share:server=sid01hnas01b,share=osd_data/OSD_DataArchive/osd_data_final/netCDF_Data/ADCP/'
 # archive_dir_test = './data/'
 json_file = './tests/test_files/ios_polygons.geojson'
